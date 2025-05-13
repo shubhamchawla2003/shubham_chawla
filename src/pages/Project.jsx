@@ -4,9 +4,16 @@ import quiz from "../pages/quiz.png";
 import meal_search from "../pages/meal_search.png";
 import cart from "../pages/cart.png";
 import curd from "../pages/curd.png";
+import weather from "../pages/weather.png";
+
 
 const Project = () => {
   const card = [
+    {
+      id:0,
+      src:weather,
+      src2:"https://weather-app-4as6.vercel.app/",
+    },
     {
       id: 1,
       src: curd,
