@@ -15,7 +15,7 @@ const Project = () => {
       id:1,
       src:AI,
       src2:"https://react-ai-neon.vercel.app/",
-    }
+    },
     {
       id:2,
       src:weather,
@@ -95,4 +95,5 @@ const Project = () => {
 };
 
 export default Project;
+
 
