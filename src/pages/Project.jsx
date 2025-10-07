@@ -6,7 +6,7 @@ import cart from "../pages/cart.png";
 //import curd from "../pages/curd.png";
 import weather from "../pages/weather.png";
 import Todo from "../pages/todo.png"
-import AI1 from "../pages/AI.png"
+import AI1 from "../pages/AI1.png"
 
 
 const Project = () => {
