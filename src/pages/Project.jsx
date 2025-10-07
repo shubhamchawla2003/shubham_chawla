@@ -6,16 +6,16 @@ import cart from "../pages/cart.png";
 //import curd from "../pages/curd.png";
 import weather from "../pages/weather.png";
 import Todo from "../pages/todo.png"
-import AI from "../pages/AI.png"
+import AI1 from "../pages/AI.png"
 
 
 const Project = () => {
   const card = [
     {
       id:1,
-      src:AI,
+      src:AI1,
       src2:"https://react-ai-neon.vercel.app/",
-    }
+    },
     {
       id:2,
       src:weather,
