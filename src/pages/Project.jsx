@@ -3,35 +3,41 @@ import { NavLink } from "react-router-dom";
 import quiz from "../pages/quiz.png";
 import meal_search from "../pages/meal_search.png";
 import cart from "../pages/cart.png";
-import curd from "../pages/curd.png";
+//import curd from "../pages/curd.png";
 import weather from "../pages/weather.png";
 import Todo from "../pages/todo.png"
+import AI from "../pages/AI.png"
 
 
 const Project = () => {
   const card = [
     {
       id:1,
+      src:AI,
+      src2:"https://react-ai-neon.vercel.app/",
+    }
+    {
+      id:2,
       src:weather,
       src2:"https://weather-app-4as6.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       src: Todo,
       src2: "https://my-todo-app-sooty-seven.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       src: cart,
       src2: "https://add-to-cart-blue-ten.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       src: quiz,
       src2: "https://quiz-app-6sy9.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       src: meal_search,
       src2: "https://meal-search-azure.vercel.app/",
     },
